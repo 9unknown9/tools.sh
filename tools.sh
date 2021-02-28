@@ -115,6 +115,9 @@ clear
 echo $yellow"tunngu bentar"
 sleep 2
 git clone https://github.com/9unknown9/spam.sms
+cd spam.sms
 python sms.py
+
+
 exit
 fi
